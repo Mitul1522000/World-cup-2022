@@ -1,0 +1,104 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap');
+/* common */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+/**** introducion section 
+*******************/
+main{
+    display: flex;
+    justify-content: center;
+    padding: 76px 139px 104px 140px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    background-color: #161616;
+    width: 1321px;
+    height: 646px;
+    border-radius: 30px;
+}
+.info{
+    width: 534px;
+    padding: 115px 21px 111px 106px;
+    
+}
+.player{
+    padding: 33px 79px 0 21px;
+}
+.player img{
+    width: 581px;
+    height: 613px;
+}
+.header-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 0;
+
+}
+.header-text{
+    font-weight: 400;
+    font-size: 14px;
+    color:#FFFFFF;
+    margin-bottom: 35px;
+}
+.header-anchor a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color:#FFFFFF;
+    border: 1px;
+    border-radius: 5px;
+    background-color:#DD0000 ;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    
+}
+/***** Games section *****/
+.sport-info{
+    background-color: #161616;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 24px;
+    height: 312px;
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.match{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 252px;
+    display: flex;
+    justify-content: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+#blog-file{
+    color: #FFFFFF;
+    background-color: #DD0000;
+}
+.sport{
+    display: flex;
+    justify-content: center;
+}
+.blog{
+    width: 312px;
+    height: 362px;
+}
+.games{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    
+}
+
