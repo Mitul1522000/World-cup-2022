@@ -60,7 +60,8 @@ main{
     margin-bottom: 20px;
     
 }
-/***** Games section *****/
+/***** Games section 
+*******************/
 .sport-info{
     background-color: #161616;
     border: 1px solid black;
@@ -94,11 +95,69 @@ main{
 .blog{
     width: 312px;
     height: 362px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
 }
 .games{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     
+}
+.game-detail{
+    padding-left: 20px;
+}
+.game-detail p{
+    font-size: 18px;
+    font-weight: 600;
+}
+#message{
+    margin-left: 35px;
+}
+.transfer-btn{
+    border-radius: 5px;
+    font-weight: 500;
+}
+/***** footer section 
+********************/
+footer{
+    height: 444px;
+    background-color: black;
+    margin-top: 130px;
+}
+hr{
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-title{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    margin-bottom: 0;
+    
+}
+.site-detail{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+}
+.site-detail p{
+    color: #B9B9B9;
+    font-size: 16px;
+    font-weight: 500;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.media{
+    font-size: 24px;
+    margin-right: 40px;
+    padding-top: 40px;
 }
 
