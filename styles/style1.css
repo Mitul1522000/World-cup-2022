@@ -74,6 +74,14 @@ main{
     align-items: center;
     
 }
+.match a{
+    text-decoration: none;
+}
+a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
 .match{
     border: 1px solid black;
     border-radius: 10px;
